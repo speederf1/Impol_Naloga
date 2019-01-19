@@ -65,7 +65,7 @@
                                                     <RowDefinition></RowDefinition>
                                                 </Grid.RowDefinitions>
                                                 <Label Grid.Row="0" VerticalAlignment="Center">Širina traku:</Label>
-                                                <TextBox Grid.Row="1" Name="tbWidth" Height="20"></TextBox>
+                                                <TextBox Grid.Row="1" Name="tbWidth" Height="20" ></TextBox>
                                                 <Label Grid.Row="2" VerticalAlignment="Center">Dolžina traku:</Label>
                                                 <TextBox Grid.Row="3" Name="tbLength" Height="20"></TextBox>
                                                 <Label Grid.Row="4" VerticalAlignment="Center">Minimalna razdalja med sosednjima rondelicama:</Label>
@@ -74,7 +74,7 @@
                                                 <TextBox Grid.Row="7" Name="tbMinDistanceFromEdges" Height="20"></TextBox>
                                                 <Label Grid.Row="8" VerticalAlignment="Center">Polmer rondelice:</Label>
                                                 <TextBox Grid.Row="9" Name="tbRadius" Height="20"></TextBox>
-                                                <Button Grid.Row="10" Name="btnCalculate" Width="100" Background="LightSkyBlue">Izračunaj</Button>
+                                                <Button Grid.Row="10" Name="btnCalculate" Width="100" Background="LightSkyBlue" Click="btnCalculate_Click">Izračunaj</Button>
                                             </Grid>
                                         </DockPanel>
                                     </Grid>
