@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RondelCalculationDLL")]
+[assembly: AssemblyTitle("Tester")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RondelCalculationDLL")]
+[assembly: AssemblyProduct("Tester")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("963c16a6-a37d-452d-bcdd-fdb4aad9b95c")]
+[assembly: Guid("02fe7c7c-2815-4389-a445-0761b3101952")]
 
 // Version information for an assembly consists of the following four values:
 //
