@@ -74,6 +74,7 @@ namespace Impol_Naloga
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Prišlo je do napake pri izračunu preko API-ja. Preverite, ali je aplikacija z API-jem zagnana.", "Napaka", MessageBoxButton.OK, MessageBoxImage.Warning);
                 _log.Error("Error in calculation.", ex);
             }
         }
