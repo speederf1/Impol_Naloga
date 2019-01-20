@@ -62,7 +62,7 @@ namespace Impol_Naloga
                 // calculate rondels positions -> call web api
                 using (HttpClient httpClient = new HttpClient())
                 {
-                    HttpResponseMessage result = httpClient.GetAsync($"http://localhost:6935/api/rondelcalculation?width={_inputData.Width.ToString().Replace(',', '.')}&length={_inputData.Length.ToString().Replace(',', '.')}&r={_inputData.Radius.ToString().Replace(',', '.')}&minDistanceBetween={_inputData.MinDistanceBetween.ToString().Replace(',', '.')}&minDistanceFromEdges={_inputData.MinDistanceFromEdges.ToString().Replace(',', '.')}").Result;
+                    HttpResponseMessage result = httpClient.GetAsync($"http://localhost:9000/api/rondelcalculation?width={_inputData.Width.ToString().Replace(',', '.')}&length={_inputData.Length.ToString().Replace(',', '.')}&r={_inputData.Radius.ToString().Replace(',', '.')}&minDistanceBetween={_inputData.MinDistanceBetween.ToString().Replace(',', '.')}&minDistanceFromEdges={_inputData.MinDistanceFromEdges.ToString().Replace(',', '.')}").Result;
 
                     // deserialize from json
                     _rondels = JsonConvert.DeserializeObject<List<Rondel>>(result.Content.ReadAsStringAsync().Result);
